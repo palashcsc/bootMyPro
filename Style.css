@@ -104,16 +104,18 @@ font-family: 'Roboto', sans-serif;*/
 
 /*about-me start*/
 
+
 #about-oth {
-    padding:30% 10%;
+    padding:5%;
     background-color:#e8ded2;
+   
 }
 
-#about-oth h3{
-    padding:10% 10%;
+/*#about-oth h3{
+    padding:30% 10%;
     background-color:#e8ded2;
     /*margin-bottom:0px;*/
-}
+/*}*/
 
 #about-oth p{
     font-size:0.9rem;
@@ -159,4 +161,41 @@ font-family: 'Roboto', sans-serif;*/
 #AchiveMentID{
     padding:4% 5%;
 
+}
+
+#feedback{
+    padding:5%;
+    background: #0094ff;
+}
+
+.feedback-img{
+    width:120px;
+    height:auto;
+    margin-bottom:5px;
+}
+
+.carousel-item{
+    text-align:center;
+    padding:10% 15%;
+    font-style:italic;
+    font-size:1.2rem;
+}
+
+#contact{
+    padding:5%;
+    background: #0094ff;
+}
+
+.form-group label{
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+@media(max-width:786px){
+    .nav-link{
+        background-color:#ee1010;
+    }
+    .banner-container h1{
+        font-size:2rem;
+    }
 }
